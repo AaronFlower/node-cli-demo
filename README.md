@@ -6,7 +6,7 @@
 
 ```json
 {
-  "name": "cli-demo",
+  "name": "aaron-cli-demo",
   "version": "1.0.0",
   "description": "node cli demo",
   "main": "index.js",
@@ -68,7 +68,7 @@ Hello world, node cli demo
 $ which aaron-cli
 /Users/easonzhan/.nvm/versions/node/v7.5.0/bin/aaron-cli
 $ readlink $(which aaron-cli)
-../lib/node_modules/cli-demo/index.js
+../lib/node_modules/aaron-cli-demo/index.js
 ```
 
 在开发过程中为了方便可以使用 `npm link`命令直接链接到我们的开发环境的入口文件。
@@ -106,7 +106,7 @@ use npm link when developing your npm projet
 当脚本都开发完成后，就可以用`npm publish`把我们的脚本发布到 npm 库上了。然后大家就可以通过 npm 安装使用我们开发的脚本了。
 
 ```shell
-$ npm i -g cli-demo
+$ npm i -g aaron-cli-demo
 ```
 
 ## Links
