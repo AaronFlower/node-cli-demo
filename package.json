@@ -20,5 +20,8 @@
   "license": "ISC",
   "bin": {
     "aaron-cli": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
   }
 }
