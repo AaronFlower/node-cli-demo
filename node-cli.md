@@ -109,3 +109,6 @@ use npm link when developing your npm projet
 $ npm i -g cli-demo
 ```
 
+## Links
+[Building command line tools with Node.js](https://developer.atlassian.com/blog/2015/11/scripting-with-node/)
+
