@@ -1,10 +1,14 @@
 {
   "name": "cli-demo",
   "version": "1.0.0",
-  "description": "node cli demo",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaronFlower/node-cli-demo.git"
   },
   "keywords": [
     "npm",
