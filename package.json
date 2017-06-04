@@ -13,5 +13,8 @@
     "demo"
   ],
   "author": "aaronflower",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "aaron-cli": "./index.js"
+  }
 }
